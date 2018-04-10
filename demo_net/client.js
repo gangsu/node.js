@@ -1,5 +1,5 @@
 const net = require('net');
-const client = net.createConnection({port:8880}, ()=>{
+const client = net.connect({port:8880}, ()=>{
 	console.log('connected to server!');
 	client.write('hello\r\n');
 });

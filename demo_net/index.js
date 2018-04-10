@@ -26,7 +26,7 @@ const server = net.createServer((sock)=>{
 
 server.on('error',(error)=>{
 	console.log('server error');
-	throw error;
+	console.log(error);
 });
 
 server.listen(8880,()=>{

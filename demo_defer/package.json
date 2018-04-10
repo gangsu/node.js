@@ -1,0 +1,11 @@
+{
+  "name": "demo_defer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "defer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "skyesu",
+  "license": "ISC"
+}
